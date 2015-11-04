@@ -1,0 +1,28 @@
+{
+  "name": "angola",
+  "description": "Angola the Realtime Log Inspector",
+  "main": "index.js",
+  "authors": [
+    "akai-inu <akai_inu@live.jp>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "log",
+    "inspection",
+    "realtime",
+    "socket.io",
+    "logging"
+  ],
+  "homepage": "https://github.com/angola-rabbit/angola",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
