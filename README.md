@@ -16,3 +16,8 @@ Angola the Realtime Log Inspector
 1. `$ npm start`
 
 access to http://127.0.0.1:3000
+
+## Development
+
+1. `$ npm install --global eslint jasmine`
+1. `$ npm test`
