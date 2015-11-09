@@ -1,0 +1,10 @@
+//- エラー表示を行うページ
+extends layout
+
+block content
+  .container
+    .jumbotron
+      h1 #{error.status} : #{error.message}
+
+    if dev
+      p #{error.stack}
