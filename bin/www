@@ -1,7 +1,15 @@
 #!/usr/bin/env node
+/**
+ * @author    akai-inu <akai_inu@live.jp>
+ * @copyright angola-rabbit
+ */
 
 /**
- * Module dependencies.
+ * エントリポイント
+ */
+
+/**
+ * 依存モジュール読み込み
  */
 
 var app = require('../app');

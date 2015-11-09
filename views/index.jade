@@ -1,7 +1,17 @@
+//- トップページ
 extends layout
 
 block content
   .container(role="main")
     .jumbotron
-      h1 Hello #{title}.
-      p Starting of Express.
+      h1 #{title}
+
+    .row
+      .col-md-6
+        .panel.panel-default
+          .panel-body.text-center
+            a.btn.btn-lg(href="/search") 調査を行う
+      .col-md-6
+        .panel.panel-default
+          .panel-body.text-center
+            a.btn.btn-lg.disabled(href="#") [WIP]監視する
