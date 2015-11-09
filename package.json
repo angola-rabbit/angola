@@ -4,7 +4,7 @@
   "description": "Angola the Realtime Log Inspector",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "bower install && gulp && node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

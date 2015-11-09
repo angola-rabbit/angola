@@ -13,8 +13,6 @@ Angola the Realtime Log Inspector
 1. `$ git clone https://github.com/angola-rabbit/angola.git`
 1. `$ cd angola`
 1. `$ npm install`
-1. `$ bower install`
-1. `$ gulp`
 1. `$ npm start`
 
 access to http://127.0.0.1:3000
