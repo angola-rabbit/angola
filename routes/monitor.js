@@ -4,18 +4,14 @@
  */
 
 /**
- * トップページのルーティング実装
+ * 調査検索ページのルーティング実装
  */
 
 var express = require('express');
 var router = express.Router();
-var consts = require('../lib/consts');
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {
-    version: consts.version,
-  });
+  res.render('monitor', {});
 });
 
 module.exports = router;

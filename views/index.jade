@@ -4,14 +4,10 @@ extends layout
 block content
   .container(role="main")
     .jumbotron
-      h1 #{title}
+      h1 Angola ver.#{version}
 
     .row
       .col-md-6
-        .panel.panel-default
-          .panel-body.text-center
-            a.btn.btn-lg(href="/search") 調査を行う
+        a.btn.btn-lg.btn-primary.btn-block(href="/search") 調査を行う
       .col-md-6
-        .panel.panel-default
-          .panel-body.text-center
-            a.btn.btn-lg.disabled(href="#") [WIP]監視する
+        a.btn.btn-lg.btn-primary.btn-block.disabled(href="/monitor") [WIP]監視する

@@ -1,0 +1,16 @@
+nav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle.collapsed(type="button",data-toggle="collapse",data-target="#main-navigator",aria-expanded="false")
+        span.sr-only ナビゲーションを開く
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href="/") Angola
+    #main-navigator.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li
+          a(href="/search") 調査
+        li
+          a.disabled(href="/monitor") 監視
+      block navbar-extend
