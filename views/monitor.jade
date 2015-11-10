@@ -1,10 +1,10 @@
-//- 調査検索を行うページ
+//- 監視を行うページ
 extends layout
 
 block content
   .container-fluid
     .row
-      form#search-form.form-base.form-horizonral(action="",method="GET")
+      form#monitor-form.form-base.form-horizonral(action="",method="GET")
         include elements/forms/target-file
         include elements/forms/target-regexp
         include elements/forms/target-highlight
@@ -12,7 +12,9 @@ block content
 
         .form-group.clearfix
           .col-sm-3.col-md-2
-            button.btn.btn-sm.btn-primary.btn-block(type="submit") 抽出する
+            button.btn.btn-sm.btn-primary.btn-block(type="submit") 監視を開始する
+          .col-sm-3.col-md-2
+            button.btn.btn-sm.btn-warning.btn-block(type="reset") 監視を終了する
 
     .row
       .table-responsive

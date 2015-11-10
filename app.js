@@ -10,6 +10,7 @@
 var routes = {
   '/': 'index',
   '/search': 'search',
+  '/monitor': 'monitor',
 };
 
 var express = require('express');
