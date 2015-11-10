@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "bower install && gulp && NODE_ENV=development node ./bin/www",
-    "test": "bower install && gulp && NODE_ENV=test jasmine"
+    "test": "bower install && gulp && eslint **/*.js && NODE_ENV=test jasmine"
   },
   "repository": {
     "type": "git",

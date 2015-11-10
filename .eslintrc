@@ -1,4 +1,5 @@
 {
+  "extends": "eslint:recommended",
   "root": true,
   "env": {
     "browser": true,
@@ -9,5 +10,9 @@
     "classes": true,
     "defaultParams": true,
     "forOf": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "no-unused-vars": 1
   }
 }
