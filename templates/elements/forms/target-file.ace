@@ -1,0 +1,8 @@
+.form-group.clearfix
+  label.col-sm-3.col-md-2.control-label.text-right for="target-file"
+    span.glyphicon.glyphicon-file aria-hidden="true"
+    | 対象ファイル
+  .col-sm-6
+    select#target-file.form-control.input-sm autofocus="autofocus"
+      option dummy1
+      option dummy2

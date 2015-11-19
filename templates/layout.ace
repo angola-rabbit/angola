@@ -1,0 +1,16 @@
+/ サービス全体のレイアウト
+= doctype html
+html lang=ja
+  head
+    meta charset=utf-8
+    title Angola ver.0.0.2
+    link rel=stylesheet href=/static/vendor/bootstrap/css/bootstrap.min.css
+    link rel=stylesheet href=/static/style.css
+    = yield heads
+  body
+    = include nav
+    #main-container.container-fluid
+      = yield main
+    script src=/static/vendor/jquery/jquery.min.js
+    script src=/static/vendor/bootstrap/js/bootstrap.min.js
+    = yield scripts

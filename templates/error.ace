@@ -1,0 +1,6 @@
+= content main
+  .jumbotron
+    h1 {{.ErrorStatus}} : {{.ErrorMessage}}
+
+  {{if dev}}
+    p {{.ErrorStack}}

@@ -1,0 +1,34 @@
+= content main
+  .row
+    form#search-form.form-base.form-horizontal action="" method="GET"
+      = include elements/forms/target-file
+      = include elements/forms/target-regexp
+      = include elements/forms/target-highlight
+      = include elements/forms/target-columns
+
+      .form-group.clearfix
+        .col-sm-3.col-md-2
+          button.btn.btn-sm.btn-primary.btn-block type="submit" 抽出する
+
+  .row
+    .table-responsive
+      table#result-table.table.table-striped.table-condensed cellspacing="0"
+        thead
+          tr
+            th 日時
+            th IP
+            th 種類
+            th サーバ
+            th PID
+            th レベル
+            th 内容
+        tbody
+        tfoot
+          tr
+            th 日時
+            th IP
+            th 種類
+            th サーバ
+            th PID
+            th レベル
+            th 内容

@@ -1,0 +1,10 @@
+= content main
+  .container
+    .jumbotron
+      h1 Angola ver.{{.Version}}
+
+    .row
+      .col-md-6
+        a.btn.btn-lg.btn-primary.btn-block href=/search 調査を行う
+      .col-md-6
+        a.btn.btn-lg.btn-primary.btn-block href=/monitor 監視する

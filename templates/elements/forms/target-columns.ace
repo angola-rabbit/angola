@@ -1,0 +1,13 @@
+.form-group.clearfix
+  label.col-sm-3.col-md-2.control-label.text-right for="target-columns"
+    span.glyphicon.glyphicon-th-list aria-hidden="true"
+    | 出力カラム
+  .col-sm-9.col-md-10
+    #target-columns.btn-group.btn-group-sm.btn-group-justified role="group"
+      a.btn.btn-primary.active href="#" disabled="disabled" 日時
+      a.btn.btn-default.active href="#" IP
+      a.btn.btn-default.active href="#" 種類
+      a.btn.btn-default.active href="#" サーバ
+      a.btn.btn-default.active href="#" PID
+      a.btn.btn-default.active href="#" レベル
+      a.btn.btn-default.active href="#" 内容

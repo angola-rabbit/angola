@@ -1,0 +1,6 @@
+.form-group.clearfix
+  label.col-sm-3.col-md-2.control-label.text-right for="target-regexp"
+    span.glyphicon.glyphicon-zoom-in aria-hidden="true"
+    | 抽出正規表現
+  .col-sm-9.col-md-10
+    input#target-regexp.form-control.input-sm type="text" placeholder="'201[4-5]' AND NOT 'INFO' AND ('user_id=?12345' OR '23:55')"

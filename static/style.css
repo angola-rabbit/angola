@@ -1,0 +1,43 @@
+body {
+  padding-top: 30px; /* padding for navbar */
+}
+
+/** navbar */
+
+.navbar {
+  background-color: #f4f4f4;
+  min-height: 25px;
+}
+
+.navbar-toggle {
+  padding: 0 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.navbar-brand {
+  height: 25px;
+  padding: 2px 15px;
+  line-height: 21px;
+}
+
+.navbar-nav > li > a { 
+  padding-top: 2px;
+  padding-bottom: 2px;
+  line-height: 21px;
+}
+
+/** search */
+
+.form-base .form-group {
+  margin-bottom: 0;
+}
+
+.form-base label {
+  padding-top: 5px;
+}
+
+.form-base th {
+  text-align: center;
+}
+
